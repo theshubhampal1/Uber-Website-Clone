@@ -1,0 +1,574 @@
+/* Project CSS Source Code by shubhampal.co.in */
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+    overflow-x: hidden;
+}
+
+nav {
+    height: 60px;
+    width: 100%;
+    background: black;
+    color: white;
+}
+
+.navbar1 {
+    height: 60px;
+    width: 50%;
+    float: left;
+}
+
+.navbar2 {
+    height: 60px;
+    width: 50%;
+    float: right;
+}
+
+.logo {
+    height: 35px;
+    width: 60px;
+    margin: 11px 15px 11px 100px;
+    float: left;
+}
+
+ul {
+    list-style: none;
+    font-size: 15px;
+}
+
+ul>li {
+    float: left;
+    line-height: 30px;
+    margin: 0px 20px;
+}
+
+ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+.ul2 {
+    float: right;
+    margin: 0px 100px;
+}
+
+.ul2>li {
+    float: left;
+    line-height: 60px;
+    margin: 0px 20px;
+}
+
+.ul1-1 {
+    position: absolute;
+    left: 130px;
+    top: 60px;
+    display: none;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+.ul1-1>li {
+    float: none;
+    background: black;
+    padding: 5px 10px;
+}
+
+.ul1-1>li>a {
+    color: white;
+}
+
+.btn1 {
+    height: 38px;
+    width: 75px;
+    background: white;
+    color: black;
+    border-radius: 50px;
+    font-size: 14px;
+    margin: 10px 0px;
+    border-style: none;
+}
+
+.btn1>a {
+    text-decoration: none;
+    color: black;
+}
+
+.website-icon {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 5px;
+}
+
+#banner {
+    height: 400px;
+    width: 1320px;
+    background: url(Uber-Website/uber-banner.jpg);
+    background-size: 100% 100%;
+    padding: 80px 0px 100px 160px;
+}
+
+.banner {
+    height: 420px;
+    width: 460px;
+    background: white;
+}
+
+.banner1 {
+    height: 120px;
+    width: 460px;
+    display: flex;
+    flex-wrap: flex;
+    direction: row;
+    justify-content: space-around;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.icon {
+    height: 120px;
+    width: 20%;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.icon:hover {
+    border-bottom: 5px solid black;
+    cursor: pointer;
+}
+
+.icon1 {
+    height: 20px;
+    width: 20px;
+}
+
+.banner2 {
+    height: 300px;
+    width: 460px;
+    background: white;
+    padding: 0px 35px;
+    box-sizing: border-box;
+}
+
+.heading1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 20px 0px;
+}
+
+input {
+    height: 45px;
+    width: 100%;
+    border-style: none;
+    background: #f6f6f6;
+    margin: 4px 0px;
+    font-size: 17px;
+    padding-left: 30px;
+}
+
+.btn {
+    height: 45px;
+    width: 150px;
+    color: black;
+    border-radius: 10px;
+    font-size: 14px;
+    margin: 10px 0px;
+    border-style: none;
+    margin: 20px 0px;
+    font-weight: bold;
+}
+
+.btn2 {
+    margin-right: 20px;
+    background: black;
+    color: white;
+}
+
+.btn2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn3 a {
+    text-decoration: none;
+    color: black;
+}
+
+#line {
+    height: 300px;
+    width: 100%;
+    padding: 50px 0px 50px 150px;
+    box-sizing: border-box;
+    background-image: url(Uber-Website/banner2.jpg);
+    background-size: 100% 100%;
+}
+
+.heading3 {
+    margin-left: 150px;
+}
+
+#block1 {
+    height: 580px;
+    width: 82%;
+    margin: auto;
+}
+
+#div1 {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.div1 {
+    height: 400px;
+    width: 48%;
+    margin: auto;
+    float: left;
+    background-size: 100% 100%;
+}
+
+.thumb1 {
+    background-image: url(Uber-Website/thumb-1.png);
+}
+
+.thumb2 {
+    background-image: url(Uber-Website/thumb-2.png);
+}
+
+.div1 a {
+    color: black;
+    text-decoration: underline 1px solid #bbbbbb;
+    position: relative;
+    top: 400px;
+    font-size: 18px;
+}
+
+.heading4 {
+    position: relative;
+    top: 400px;
+    font-size: 25px;
+}
+
+.para2 {
+    position: relative;
+    top: 400px;
+    font-size: 17px;
+}
+
+#block2 {
+    height: 210px;
+    width: 80%;
+    margin: auto;
+}
+
+.block2 {
+    height: 210px;
+    width: 33.3%;
+    box-sizing: border-box;
+    margin: auto;
+    float: left;
+    padding: 15px;
+}
+
+.icon2 {
+    height: 30px;
+    width: 30px;
+}
+
+.para3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.para4 {
+    font-size: 17px;
+}
+
+.block2 a {
+    color: black;
+    text-decoration: underline 1px solid #bbbbbb;
+}
+
+#block3 {
+    height: 400px;
+    width: 82%;
+    margin: auto;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.block3 {
+    height: 180px;
+    width: 48%;
+}
+
+.block3-1 {
+    height: 180px;
+    width: 30%;
+    float: left;
+}
+
+.icon3 {
+    height: 180px;
+    width: 100%;
+}
+
+.block3-2 {
+    height: 180px;
+    width: 70%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.heading5 {
+    font-size: 24px;
+}
+
+.para5 {
+    font-size: 16px;
+}
+
+#dv1 {
+    height: 450px;
+    width: 100%;
+    background: #f6f6f6;
+}
+
+#block4 {
+    height: 450px;
+    width: 82%;
+    margin: auto;
+    background: #f6f6f6;
+}
+
+.block4 {
+    height: 240px;
+    width: 47%;
+    background: white;
+    float: left;
+
+    box-sizing: border-box;
+    margin: 15px;
+    padding: 30px;
+}
+
+.heading6 {
+    font-size: 35px;
+}
+
+.heading7 {
+    font-size: 26px;
+}
+
+#dv2 {
+    height: 250px;
+    width: 100%;
+    background: white;
+}
+
+#block5 {
+    height: 220px;
+    width: 82%;
+    margin: auto;
+    background: lightgreen;
+}
+
+.block5 {
+    height: 180px;
+    width: 48%;
+}
+
+.block4-1 {
+    height: 180px;
+    width: 35%;
+    float: left;
+}
+
+.icon4 {
+    height: 180px;
+    width: 100%;
+}
+
+.block4-2 {
+    height: 180px;
+    width: 65%;
+    float: left;
+    padding: 40px 10px;
+    box-sizing: border-box;
+}
+
+.txt1 {
+    float: right;
+    font-size: 50px;
+}
+
+#block6 {
+    height: 150px;
+    width: 82%;
+    margin: auto;
+    background: white;
+
+}
+
+.block6 {
+    height: 150px;
+    width: 47%;
+    background: white;
+    float: left;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+    margin: 15px;
+    padding: 30px;
+}
+
+.heading8 {
+    font-size: 40px;
+}
+
+#footer {
+    min-height: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    background: black;
+}
+
+#foot {
+    min-height: 500px;
+    width: 80%;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.foot1 {
+    height: 250px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 80px;
+}
+
+.logo1 {
+    height: 35px;
+    width: 60px;
+    float: left;
+}
+
+.foot1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.foot2 {
+    height: 400px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.foot2-1 {
+    height: 400px;
+    width: 25%;
+    box-sizing: border-box;
+    float: left;
+}
+
+ol {
+    list-style: none;
+}
+
+ol>li {
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.foot2-1>ol>li:first-child {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ol>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+.foot3 {
+    height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.foot4 {
+    height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.foot5 {
+    height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.foot3 ol li {
+    float: left;
+    margin: 0px 10px;
+}
+
+.foot3>.language {
+
+    margin-left: 280px;
+    display: inline-block;
+    padding: 0px;
+}
+
+.icon5 {
+    height: 25px;
+    width: 25px;
+    margin-right: 100px;
+    margin-top: 70px;
+}
+
+.icon5:nth-child(1) {
+    height: 35px;
+    width: 35px;
+}
+
+.foot-logo {
+    height: 40px;
+    width: 120px;
+    position: relative;
+    top: 30px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.para-last1 {
+    color: grey;
+    font-size: 12px;
+}
+
+.foot5 ol li {
+    float: left;
+    margin: 0px 10px;
+    font-size: 12px;
+}
+
+.foot5>.language {
+
+    margin-left: 900px;
+    position: relative;
+    top: -30px;
+
+}
+
+/* Project CSS Source Code by shubhampal.co.in | All Rights Reseverd. */
